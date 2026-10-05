@@ -14,8 +14,7 @@ public class Main {
         System.out.print("Digite uma frase: ");
         String entrada = sc.nextLine();
         
-        String saida = Inversor
-        .inverterPalavras(entrada);
+        String saida = Inversor.inverterPalavras(entrada);
         
         System.out.println("Saída: " + saida);
         
